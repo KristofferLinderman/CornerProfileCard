@@ -1,0 +1,65 @@
+* {
+    font-family: 'Montserrat', sans-serif !important;
+}
+
+body {
+    margin: 0;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    height: 100%;
+    background-color: #696969;
+}
+
+.profileCard {
+    display: flex;
+    margin: auto;
+    width: 400px;
+    height: 575px;
+    background-color: #f4f4f9;
+    flex-direction: column;
+    overflow: hidden;
+    justify-content: space-between;
+}
+
+.profileImg {
+    margin: 0;
+    align-self: flex-end;
+    transform: translate(50px, -30px);
+}
+
+.profileImg>img {
+    box-shadow: 0 0 5px 1px rgb(49, 49, 49);
+    object-fit: cover;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+}
+
+.profileName {
+    margin: 0 15px;
+}
+
+.firstName {
+    font-size: 2em;
+}
+
+.firstNameFirstLetter {
+    color: #016f9e;
+}
+
+.lastName {
+    font-size: 1.4em;
+    color: #555;
+}
+
+.infoCard {
+    width: 375px;
+    height: 200px;
+    box-shadow: 0 4px 3px 2px #696969, 2px 0 3px 2px #69696969;
+    margin: 0 auto;
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
